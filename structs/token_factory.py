@@ -1,4 +1,4 @@
-from structs.gramatics import KeyWords, Operators, Comment, Delimiters
+from structs.token_class import KeyWords, Operators, Comment, Delimiters
 from structs.symbol_table import SymbolTable
 
 

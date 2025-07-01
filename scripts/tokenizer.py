@@ -2,7 +2,7 @@ import re
 
 from errors.Errors import LexicalError
 from errors.error_messages import ErrorMessages
-from structs.gramatics import Operators, Delimiters, Comment
+from structs.token_class import Operators, Delimiters, Comment
 from structs.lexer import Lexer
 from structs.symbol_table import SymbolTable
 from structs.token_factory import TokenTypeFactory

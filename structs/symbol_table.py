@@ -1,4 +1,4 @@
-from structs.gramatics import Comment
+from structs.token_class import Comment
 
 
 class SymbolTable:

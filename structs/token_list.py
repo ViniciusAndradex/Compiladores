@@ -1,7 +1,7 @@
 from errors.error_messages import ErrorMessages
 from errors.error_types import ErrorType
 from errors.Errors import GenericError, LexicalError
-from structs.gramatics import KeyWords
+from structs.token_class import KeyWords
 from structs.symbol_table import SymbolTable
 from structs.token_factory import TokenTypeFactory
 

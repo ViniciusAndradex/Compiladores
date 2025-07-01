@@ -2,7 +2,7 @@ import re
 
 from errors.Errors import LexicalError
 from errors.error_messages import ErrorMessages
-from structs.gramatics import Comment, KeyWords, Delimiters, Operators
+from structs.token_class import Comment, KeyWords, Delimiters, Operators
 
 
 class Lexer:
